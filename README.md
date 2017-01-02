@@ -16,7 +16,16 @@ or at http://localhost:3000/todo.html
 
 ### Julia Reisinger
 ### Answers:
+
+#### P6
 #### seed data:
     rake db:migrate
 
-#### 
+#### P7
+
+##### beobachtet die log-meldungen beim deployen: wann passiert das kompilieren der assets?
+
+
+##### betrachtet das ergebnis-HTML im browser: sieht man, dass die assets compiliert wurden?
+
+
