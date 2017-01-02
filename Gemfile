@@ -41,6 +41,7 @@ group :development, :test do
   gem 'spring'
   gem 'tzinfo-data'
   gem 'rails_12factor', group: :production
-  ruby "2.3.1"
+  ruby "2.2.4"
+  gem 'puma'
 end
 
