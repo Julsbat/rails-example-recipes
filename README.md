@@ -19,7 +19,13 @@ or at http://localhost:3000/todo.html
 
 #### 1.
 
-    rake db:migrate
+To add initial data after a database is created, Rails has a built-in 'seeds' feature that makes the process quick and easy. This is especially useful when reloading the database frequently in development and test environments. It's easy to get started with this feature: just fill up db/seeds.rb with some Ruby code, and run rails 
+
+    db:seed
+    
+Located in:
+
+    db/seeds.rb
     
 #### 2. 
 
@@ -31,4 +37,3 @@ it comes from the index.html.erb in ingredients :
 #### 4. 
 
 the page loads much faster
-
