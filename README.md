@@ -15,17 +15,20 @@ or at http://localhost:3000/todo.html
 
 
 ### Julia Reisinger
-### Answers:
+### Answer
 
-#### P6
-#### seed data:
+#### 1.
+
     rake db:migrate
+    
+#### 2. 
 
-#### P7
+it comes from the index.html.erb in ingredients :
 
-##### beobachtet die log-meldungen beim deployen: wann passiert das kompilieren der assets?
+     <%= link_to 'Destroy', ingredient, method: :delete, data: { confirm: 'Are you sure?' } %>
+     
 
+#### 4. 
 
-##### betrachtet das ergebnis-HTML im browser: sieht man, dass die assets compiliert wurden?
-
+the page loads much faster
 
